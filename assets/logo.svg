@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="h-grad" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5aa9f0"/>
+      <stop offset="1" stop-color="#0a66c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0b1220"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="url(#h-grad)" stroke-opacity=".55" stroke-width="2"/>
+  <!-- italic stems -->
+  <path d="M23 13 17 51" stroke="url(#h-grad)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M47 13 41 51" stroke="url(#h-grad)" stroke-width="8" stroke-linecap="round"/>
+  <!-- crossbar, rising like a cursor stroke -->
+  <path d="M18.5 35 45.5 29" stroke="#f2f7fd" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="52" cy="50" r="3.2" fill="#5aa9f0"/>
+</svg>
